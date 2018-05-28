@@ -10,6 +10,7 @@ namespace PasswordGuesser
 {
     class Program
     {
+		// This is the start of an experiment in multi threading. 
         private const string GnuMsg =
             "This program is free software: you can redistribute it and/or modify\r\n    it under the terms of the GNU General Public License as published by\r\n    the Free Software Foundation, either version 3 of the License, or\r\n    (at your option) any later version.\r\n\r\n    This program is distributed in the hope that it will be useful,\r\n    but WITHOUT ANY WARRANTY; without even the implied warranty of\r\n    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\r\n    GNU General Public License for more details.\r\n\r\n    You should have received a copy of the GNU General Public License\r\n    along with this program.  If not, see <http://www.gnu.org/licenses/>.";
         private const string Welcome = "Created by David D'Amato in 2017.";
@@ -30,11 +31,20 @@ namespace PasswordGuesser
                     var startTime = DateTime.Now;
                     pwInfo.GuessFromFiles();
                     var fileCheckTime = Math.Abs((startTime - DateTime.Now).TotalSeconds);
-                    Console.WriteLine($"Total Elapsed seconds from guessing from files {fileCheckTime}");
+                    Console.WriteLine($"Total Elapsed seconds from guessing from files {fileCheckTime}\r\n");
 
                     startTime = DateTime.Now;
-                    Console.WriteLine("Starting brute force check... \r\nthis may take a long time, hours for 7-8 characters, days+ for 9+ depending on computer performance.");
-                    pwInfo.BruteForceCheckSameLength(password.Length);
+                    Console.WriteLine("Starting brute force check... \r\nthis may take a long time, hours for 7-8 characters, days+ for 9+ depending on computer performance. \r\n\r\nUse brute force to guess password? Enter 'Y' for yes or any other key to exit");
+
+					//TODO: it would be cool to take known data from say a facebook account and generate smart combos of what to guess first.
+
+	                var guessBruteForce = Console.ReadKey().Key;
+	                if (guessBruteForce != ConsoleKey.Y)
+	                {
+		                Environment.Exit(0);
+	                }
+
+					pwInfo.BruteForceCheckSameLength(password.Length);
                     var bruteForceTime = Math.Abs((startTime - pwInfo.BruteForceEndTime).TotalSeconds);
                     Console.WriteLine($"Total Elapsed seconds from brute force check: {bruteForceTime}");
 

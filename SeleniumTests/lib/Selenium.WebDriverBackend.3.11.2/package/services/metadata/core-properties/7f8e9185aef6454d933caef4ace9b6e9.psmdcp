@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coreProperties xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.openxmlformats.org/package/2006/metadata/core-properties">
+  <dc:creator>Selenium Committers</dc:creator>
+  <dc:description>Selenium is a set of different software tools each with a different approach
+      to supporting browser automation. These tools are highly flexible, allowing
+      many options for locating and manipulating elements within a browser, and one
+      of its key features is the support for automating multiple browser platforms.
+      This package contains the .NET bindings for the deprecated, more procedural
+      Selenium Remote Control (or Selenium RC) API, but implemented using the current
+      WebDriver technology. It does not require a running instance of the Selenium
+      Server, and is not limited to the functionality available from within the
+      JavaScript sandbox. It is intended as a transitional package to allow
+      organizations with significant investment in the Selenium RC API to run their
+      code with minimal modifications until they are able to migrate to the Selenium
+      WebDriver API.</dc:description>
+  <dc:identifier>Selenium.WebDriverBackedSelenium</dc:identifier>
+  <version>3.11.2</version>
+  <keywords>selenium webdriver remote control rc browser automation</keywords>
+  <lastModifiedBy>NuGet, Version=4.1.0.2450, Culture=neutral, PublicKeyToken=31bf3856ad364e35;Microsoft Windows NT 6.2.9200.0;.NET Framework 4.5</lastModifiedBy>
+</coreProperties>

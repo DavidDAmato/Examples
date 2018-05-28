@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" name="SeleniumTests.dll" fullname="C:/dev/git/github/SeleniumTests/SeleniumTests/bin/Debug/SeleniumTests.dll" testcasecount="2" result="Passed" start-time="2018-05-24 22:05:46Z" end-time="2018-05-24 22:05:50Z" duration="4.044612" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="12" random-seed="1760755383">
+  <command-line><![CDATA["C:\dev\git\github\SeleniumTests\lib\NUnit.3.10.1\bin\net45\nunitlite-runner.exe" SeleniumTests.dll]]></command-line>
+  <filter />
+  <test-suite type="Assembly" id="1003" name="SeleniumTests.dll" fullname="C:/dev/git/github/SeleniumTests/SeleniumTests/bin/Debug/SeleniumTests.dll" runstate="Runnable" testcasecount="2" result="Passed" start-time="2018-05-24 22:05:46Z" end-time="2018-05-24 22:05:50Z" duration="4.044612" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="12">
+    <environment framework-version="3.10.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 6.1.7601.65536" platform="Win32NT" cwd="C:\dev\git\github\SeleniumTests\SeleniumTests\bin\Debug" machine-name="HQDN-DDAMATO4" user="ddamato" user-domain="billtrust-dom" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="WorkDirectory" value="C:\dev\git\github\SeleniumTests\SeleniumTests\bin\Debug" />
+      <setting name="NumberOfTestWorkers" value="8" />
+    </settings>
+    <properties>
+      <property name="_PID" value="11260" />
+      <property name="_APPDOMAIN" value="nunitlite-runner.exe" />
+    </properties>
+    <test-suite type="TestSuite" id="1004" name="SeleniumTests" fullname="SeleniumTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2018-05-24 22:05:46Z" end-time="2018-05-24 22:05:50Z" duration="4.033042" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="12">
+      <test-suite type="TestFixture" id="1000" name="Tests" fullname="SeleniumTests.Tests" classname="SeleniumTests.Tests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2018-05-24 22:05:46Z" end-time="2018-05-24 22:05:50Z" duration="4.028250" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="12">
+        <test-case id="1001" name="AverageProcessingTime" fullname="SeleniumTests.Tests.AverageProcessingTime" methodname="AverageProcessingTime" classname="SeleniumTests.Tests" runstate="Runnable" seed="1102795819" result="Passed" start-time="2018-05-24 22:05:49Z" end-time="2018-05-24 22:05:49Z" duration="0.133015" asserts="7" />
+        <test-case id="1002" name="ByOrderQuanity" fullname="SeleniumTests.Tests.ByOrderQuanity" methodname="ByOrderQuanity" classname="SeleniumTests.Tests" runstate="Runnable" seed="470722428" result="Passed" start-time="2018-05-24 22:05:49Z" end-time="2018-05-24 22:05:49Z" duration="0.141097" asserts="5" />
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

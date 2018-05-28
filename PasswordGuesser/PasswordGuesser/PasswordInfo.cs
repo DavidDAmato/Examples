@@ -50,7 +50,7 @@ namespace PasswordGuesser
             var illegalChars = false;
             foreach (var c in password)
             {
-                if (!PossibleChars.Any(chars => chars == c))
+                if (PossibleChars.All(chars => chars != c))
                 {
                     Console.WriteLine($"Invalid character detected: {c}");
                     illegalChars = true;
@@ -71,6 +71,7 @@ namespace PasswordGuesser
         /// <param name="startString"></param>
         public void BruteForceCheckSameLength(int maxLength, int position = 0, string startString = "")
         {
+			// This needs to change for multi threading so we can guess all items for a certain length, then for say a-n, n-z for starting and iterate until we reach max cores.
             for (var count = 0; count < PossibleChars.Length; count++)
             {
                 if (position < maxLength - 1)
