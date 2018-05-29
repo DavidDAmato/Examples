@@ -2,7 +2,7 @@
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.PageObjects;
 
-namespace SeleniumTests
+namespace SeleniumTests.PageObjects
 {
 	public class Page
 	{

@@ -3,6 +3,8 @@ using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 using System.Drawing;
+using SeleniumTests.PageObjects;
+using SeleniumTests.Selenium;
 
 namespace SeleniumTests
 {

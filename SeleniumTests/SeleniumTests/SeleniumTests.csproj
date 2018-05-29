@@ -78,8 +78,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="TestBaseSetup.cs" />
-    <Compile Include="SeleniumDriverUtil.cs" />
-    <Compile Include="PageObjects.cs" />
+    <Compile Include="Selenium\SeleniumDriverUtil.cs" />
+    <Compile Include="PageObjects\PageObjects.cs" />
     <Compile Include="Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

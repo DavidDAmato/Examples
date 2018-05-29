@@ -1,7 +1,7 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 
-namespace SeleniumTests
+namespace SeleniumTests.Selenium
 {
 	public static class SeleniumDriverUtil
 	{
