@@ -33,3 +33,4 @@ C:\dev\git\github\Examples\JSCalc\JSCalc\obj\Debug\JSCalc.csproj.CoreCompileInpu
 C:\dev\git\github\Examples\JSCalc\JSCalc\obj\Debug\JSCalc.csproj.CopyComplete
 C:\dev\git\github\Examples\JSCalc\JSCalc\obj\Debug\JSCalc.dll
 C:\dev\git\github\Examples\JSCalc\JSCalc\obj\Debug\JSCalc.pdb
+C:\dev\git\github\Examples\JSCalc\JSCalc\obj\Debug\JSCalc.csprojResolveAssemblyReference.cache
