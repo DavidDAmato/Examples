@@ -67,8 +67,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <Content Include="Utils.js" />
-    <Content Include="tsconfig.json" />
+    <Content Include="test\calculator.tests.js" />
+    <Content Include="program\tsconfig.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -77,10 +77,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="index.html" />
-    <Content Include="calculator.js" />
-    <Content Include="Math.js" />
-    <Content Include="style.css" />
+    <Content Include="program\index.html" />
+    <Content Include="program\calculator.js" />
+    <Content Include="program\style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
