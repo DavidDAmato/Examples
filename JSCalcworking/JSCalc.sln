@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSCalc", "JSCalc\JSCalc.csproj", "{0E8FFA3D-39FC-4624-A093-AF7651257458}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E8FFA3D-39FC-4624-A093-AF7651257458}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E8FFA3D-39FC-4624-A093-AF7651257458}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E8FFA3D-39FC-4624-A093-AF7651257458}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E8FFA3D-39FC-4624-A093-AF7651257458}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BAAD369F-80D8-4488-A681-9B64384780B6}
+	EndGlobalSection
+EndGlobal
