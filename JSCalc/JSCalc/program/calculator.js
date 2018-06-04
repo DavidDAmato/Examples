@@ -2,15 +2,23 @@
 function Calculator() {
 }
 
-Calculator.prototype.add = function () {
-    var operands = Array.prototype.slice.call(arguments);
-    var sum = 0;
-    for (var i = 0; i < operands.length; i++) {
-        sum += operands[i];
-    }
-
-    return sum;
+Calculator.prototype.add = function (a, b) {
+    return Number(a) + Number(b);
 }
+
+Calculator.prototype.subtract = function (a, b) {
+    return Number(a) - Number(b);
+}
+
+Calculator.prototype.multiply = function (a, b) {
+    return Number(a) * Number(b);
+}
+
+Calculator.prototype.divide = function (a, b) {
+    return Number(a) / Number(b);
+}
+
+
 /*
 
 // return true if the number is either all numbers, 1234, or parsable as a int, "123455"
