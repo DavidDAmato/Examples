@@ -55,13 +55,3 @@
     });
 
 });
-
-/*
-
-describe("Add", function () {
-    it("Adds two integers", function () {
-        var result = calculator.Add(5, 10);
-        expect(result).toEqual(15);
-    });
-}).call(this);
-*/
